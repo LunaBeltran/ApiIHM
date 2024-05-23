@@ -1,0 +1,101 @@
+/* Página de precios, centrado y con layout de columna */
+.pricing-page {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo del título de la tienda, centrado y en mayúsculas */
+.tituloTienda {
+  text-align: center;
+  color: #F2F2F2;
+  text-transform: uppercase;
+  margin-top: 90px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 75px;
+}
+
+/* Línea roja decorativa debajo del título */
+.tituloTienda::after {
+  content: "";
+  display: block;
+  width: 42%;
+  height: 2px;
+  background: red;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* Contenedor de tarjetas, distribuidas con espacio entre ellas */
+.card-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+/* Contenedor de planes, con espacio alrededor */
+.plan-container {
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 20px;
+}
+
+/* Estilo de la tarjeta, con sombra y transición en hover */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  width: calc(33% - 20px); 
+  margin: 10px;
+}
+
+/* Escala la tarjeta al pasar el cursor sobre ella */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo de la imagen dentro de la tarjeta */
+.imgTienda {
+  width: 100%;
+  height: 65%;
+  border-bottom: 3px solid #a80303;
+}
+
+/* Contenedor de texto dentro de la tarjeta */
+.container {
+  padding: 2px 16px;
+}
+
+/* Estilo del subtítulo del combo, con fuente específica y tamaño */
+.subtituloCombo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Estilo de la descripción, con fuente cursiva y color gris claro */
+.description {
+  font-style: italic;
+  color: #dfd3d3;
+}
+
+/* Estilo del precio, con negrita y color gris claro */
+.price {
+  font-weight: bold;
+  color: #dfd3d3;
+}
+
+/* Estilo del botón, con fondo oscuro y borde blanco */
+.btnTienda {
+  background-color: #222222;
+  color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambia el color de fondo del botón al pasar el cursor */
+.btnTienda:hover {
+  background-color: #A60303;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/sigmar');
+@import url('https://fonts.cdnfonts.com/css/gloock-2');
+
+.footer {
+    background-color: #A60303;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .floreria-info,
+  .propietarios-info {
+    flex: 1;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Gloock', sans-serif;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #cabfbf;
+    font-family: 'Jomolhari', sans-serif;  }
+  

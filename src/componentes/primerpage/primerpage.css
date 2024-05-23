@@ -1,0 +1,91 @@
+/* Importación de fuentes */
+@import url('https://fonts.cdnfonts.com/css/cathylise-janetson');
+@import url('https://fonts.cdnfonts.com/css/lora-4');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/hfmonorita');
+
+/* Estilo del contenedor principal, centrado y con fondo degradado */
+.containerrmpPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #0f0f0f, #000000);
+}
+
+/* Estilo del contenido principal con fondo oscuro y sombra */
+.contentmpPrincipal {
+    background: #111111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Estilo del contenido secundario con fondo ligeramente diferente y sombra */
+.contentprinPrincipal {
+    background: #1b1b1b;
+    padding: 20px;
+    border: 1px solid #2c2b2b;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título principal, centrado y con texto en mayúsculas */
+.tituloPrincipal {
+    text-align: center;
+    color: #F2F2F2;
+    text-transform: uppercase;
+    margin-top: 90px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 75px;
+}
+
+/* Línea roja decorativa debajo del título principal */
+.tituloPrincipal::after {
+    content: "";
+    display: block;
+    width: 25%;
+    height: 2px;
+    background: red;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Estilo del texto principal, con fuente serif y color gris */
+.textPrincipal {
+    font-family: 'Lora', sans-serif;
+    color: #BFBFBF;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* Estilo de la frase destacada, centrado y con texto más grande */
+.textfrasePrincipal {
+    font-family: 'HFMonorita', sans-serif;
+    color: #F2F2F2;
+    font-size: 25px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Estilo de las imágenes, centrado y con tamaño específico */
+.imgmain {
+    display: flex;
+    width: 735px;
+    height: auto;
+    align-self: center;
+}
+
+/* Estilo del contenedor de contenido principal */
+.contentprin {
+    display: flex;
+    flex-direction: column;
+}

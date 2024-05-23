@@ -1,0 +1,104 @@
+/* Importación de fuentes */
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/inclusive-sans-2');
+
+/* Estilos para la tarjeta de película en el carrito */
+.movie-cardCart {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    background-color: #000000;
+    margin: 0 10px; 
+    padding: 10px;
+    width: 150px; 
+}
+
+/* Efecto de zoom al pasar el ratón sobre la tarjeta de película */
+.movie-cardCart:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el contenedor de la cartelera */
+.Cartelera {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+/* Estilos para la imagen dentro de la tarjeta de película */
+.movie-cardCart img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para el título principal de la página */
+.tituloCuartoP {
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 75px; 
+    text-align: center;
+    color: #F2F2F2;
+    text-transform: uppercase;
+}
+
+/* Línea decorativa debajo del título principal */
+.tituloCuartoP::after {
+    content: "";
+    display: block;
+    width: 55%;
+    height: 2px;
+    background: red;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Estilos para el título de cada tarjeta de película */
+.tituloCart {
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px; 
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+}
+
+/* Estilos para la fecha de cada tarjeta de película */
+.fechaCart {
+    margin: 10px 0;
+    color: #f0ebeb;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+/* Estilos personalizados para las flechas de navegación del carrusel */
+.slick-prev, .slick-next {
+    width: 40px; 
+    height: 40px; 
+    z-index: 1;
+}
+
+/* Tamaño y color de los íconos de las flechas de navegación */
+.slick-prev:before, .slick-next:before {
+    font-size: 50px; 
+    color: white;
+}
+
+/* Posición de la flecha de navegación izquierda */
+.slick-prev {
+    left: 10px; 
+}
+
+/* Posición de la flecha de navegación derecha */
+.slick-next {
+    right: 10px; 
+}

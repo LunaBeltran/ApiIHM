@@ -1,0 +1,112 @@
+/* Importación de fuentes */
+@import url('https://fonts.cdnfonts.com/css/inclusive-sans-2');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/lora-4');
+
+/* Estilo del contenedor principal, centrado y con fondo degradado */
+.containerrmpAgra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #0f0f0f, #000000);
+}
+
+/* Estilo del contenido principal con fondo oscuro y sombra */
+.contentmpAgra {
+    background: #111111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Estilo del título principal, centrado y con texto en mayúsculas */
+.tituloAgra {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 75px;
+    position: relative;
+}
+
+/* Línea roja decorativa debajo del título principal */
+.tituloAgra::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: red;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Estilo del subtítulo, centrado y en negrita */
+.subtituloAgra {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Línea roja decorativa debajo del subtítulo */
+.subtituloAgra::after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    background: red;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Estilo del texto principal, con fuente serif y color blanco */
+.textAgra {
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px 10%;
+    line-height: 1.6;
+}
+
+/* Estilo de la imagen, centrada y con bordes redondeados */
+.imgp5 {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Estilo del contenedor de contenido secundario */
+.contentprinAgra {
+    background: #1b1b1b;
+    padding: 20px;
+    border: 1px solid #2c2b2b;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo específico para el primer párrafo de texto, con negrita y tamaño de fuente aumentado */
+.textAgra:first-of-type {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilo específico para el último párrafo de texto, con negrita y alineado a la derecha */
+.textAgra:last-of-type {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Estilo específico para el penúltimo párrafo de texto, alineado a la derecha */
+.textAgra:nth-last-of-type(2) {
+    text-align: right;
+}

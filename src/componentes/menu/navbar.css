@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/cantaloupe');
+@import url('https://fonts.cdnfonts.com/css/jomolhari-3');
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #A60303;
+    margin: 0px;
+}
+
+.logo{
+    width: 90px;
+    height: 95px;
+}
+
+.LinksLog > p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Cantaloupe', sans-serif;                                               
+    font-size: 35px;
+    margin: 0 5px;
+    color: #ffff;
+    text-transform: uppercase;
+                                                
+}
+
+.LogoIcon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containermp {
+    height: 100vh;
+    width: fit-content;
+    position: -ms-page;
+}
+
+.Links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Jomolhari', sans-serif;
+    font-size: 22px;
+                                                
+}
+
+.Links > * {
+    margin: 0 20px;
+    color: #ffff;
+}
+
+.Links > *:hover {
+    color: #3a0a0a; 
+}
